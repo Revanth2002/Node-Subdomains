@@ -10,6 +10,10 @@ app.get('/', function(req, res) {
     res.send('Hello World from express local!');
 })
 
+app.get('/settings',function(req, res) {
+    res.send('Hello World from express local settings!');
+})
+
 router.get('/', function (req, res) {
     res.send('Hello World!');
 })
